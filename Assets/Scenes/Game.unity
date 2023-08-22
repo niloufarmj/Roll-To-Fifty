@@ -1356,7 +1356,7 @@ MonoBehaviour:
     total: 0
     nameText: {fileID: 1164719862}
     totalText: {fileID: 1156782014}
-  - name: Amir
+  - name: Arsalan
     total: 0
     nameText: {fileID: 606385988}
     totalText: {fileID: 1250066612}
@@ -1396,6 +1396,7 @@ MonoBehaviour:
   FilledRollButtonUI: {fileID: 1989454537}
   OKButtonUI: {fileID: 682836573}
   FilledOKButtonUI: {fileID: 1096074304}
+  userData: {fileID: 11400000, guid: 98596c320d3918a41a8d24ad2116763c, type: 2}
 --- !u!1 &323261172
 GameObject:
   m_ObjectHideFlags: 0

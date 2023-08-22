@@ -17,12 +17,15 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject RollButtonUI, FilledRollButtonUI;
     [SerializeField] GameObject OKButtonUI, FilledOKButtonUI;
 
+    public UserData userData;
+
     int turn = 0;
     int currentSum = 0;
     bool rolled;
 
     public void Start()
     {
+        Players[0].name = userData.PlayerName;
         UpdatePlayerText();
 
         turn = 0;
